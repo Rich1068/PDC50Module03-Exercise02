@@ -1,2 +1,2 @@
-![LOGINPAGE](https://github.com/user-attachments/assets/d0071928-f990-4b52-81d5-9617d621cba0)
-![OFFLINEPAGE](https://github.com/user-attachments/assets/c35fb69b-9348-4c87-86db-2f214314c507)
+![LOGINPAGE](https://github.com/user-attachments/assets/b0920889-dd0a-404c-802f-7cf45e74d855)
+![OFFLINEPAGE](https://github.com/user-attachments/assets/9bfcd48f-c842-44db-a5b9-a555dc506545)
