@@ -14,7 +14,7 @@ namespace Module02Exercise01.Services
     {
         public string GetMessage()
         {
-            return "Hello From MyService!";
+            return "Welcome to the Employee View App";
         }
     }
 }
