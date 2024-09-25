@@ -31,8 +31,8 @@ public partial class AddEmployee : ContentPage
 
                 if (placemark != null)
                 {
-                    Municipality.Text = $"{placemark.SubAdminArea}";
-                    Province.Text = $"{placemark.Locality}";
+                    Province.Text = $"{placemark.SubAdminArea}";
+                    Municipality.Text = $"{placemark.Locality}";
                 }
                 else
                 {
