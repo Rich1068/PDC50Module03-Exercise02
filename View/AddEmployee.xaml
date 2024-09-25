@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module02Exercise01.View.AddEmployee"
+             Title="Add Employee"
+             BackgroundColor="{DynamicResource DarkGray}">
+    <ScrollView>
+    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,70"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="300">
+
+            <Label 
+                Text="Add Employee"
+                FontSize="32"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" 
+                FontFamily="{DynamicResource PrimaryFontFamily}"
+                TextColor="{DynamicResource White}"/>
+
+            <Frame Padding="0" CornerRadius="12" BackgroundColor="{DynamicResource White}" BorderColor="{DynamicResource PrimaryButton}" HasShadow="True">
+                <Entry x:Name="FirstName" 
+                       Placeholder="Firstname" 
+                       Keyboard="Text" 
+                       TextColor="{DynamicResource Black}" 
+                       BackgroundColor="{DynamicResource White}" 
+                       Margin="10,5"/>
+            </Frame>
+
+            <Frame Padding="0" CornerRadius="12" BackgroundColor="{DynamicResource White}" BorderColor="{DynamicResource PrimaryButton}" HasShadow="True">
+                <Entry x:Name="LastName" 
+                       Placeholder="Lastname" 
+                       Keyboard="Text" TextColor="{DynamicResource Black}" 
+                       BackgroundColor="{DynamicResource White}" 
+                       Margin="10,5"/>
+            </Frame>
+
+            <Frame Padding="0" CornerRadius="12" BackgroundColor="{DynamicResource White}" BorderColor="{DynamicResource PrimaryButton}" HasShadow="True">
+                <Entry x:Name="FullName" 
+                       Placeholder="Fullname" 
+                       Keyboard="Text" TextColor="{DynamicResource Black}" 
+                       BackgroundColor="{DynamicResource White}" 
+                       Margin="10,5"/>
+            </Frame>
+
+            <Frame Padding="0" CornerRadius="12" BackgroundColor="{DynamicResource White}" BorderColor="{DynamicResource PrimaryButton}" HasShadow="True">
+                <Entry x:Name="Municipality" 
+                       Placeholder="Municipality" 
+                       Keyboard="Text" TextColor="{DynamicResource Black}" 
+                       BackgroundColor="{DynamicResource White}" 
+                       Margin="10,5"/>
+            </Frame>
+
+            <Frame Padding="0" CornerRadius="12" BackgroundColor="{DynamicResource White}" BorderColor="{DynamicResource PrimaryButton}" HasShadow="True">
+                <Entry x:Name="Province" 
+                       Placeholder="Province" 
+                       Keyboard="Text" TextColor="{DynamicResource Black}" 
+                       BackgroundColor="{DynamicResource White}" 
+                       Margin="10,5"/>
+            </Frame>
+
+            <Label x:Name="Coordinates" 
+                   Text="Coordinates will appear here" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" 
+                   TextColor="{DynamicResource White}" 
+                   FontSize="Medium" />
+
+            <Button Text="Capture Photo" 
+                    Clicked="OnCapturePhotoClicked" 
+                    FontFamily="{DynamicResource PrimaryFontFamily}" 
+                    BackgroundColor="{DynamicResource PrimaryButton}" 
+                    TextColor="{DynamicResource White}" 
+                    CornerRadius="12" 
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"/>
+
+            <Image x:Name="CaptureImage" 
+                   HeightRequest="200" 
+                   WidthRequest="200" 
+                   Aspect="AspectFill"/>
+            
+            <Button Text="Get Location" 
+                    Clicked="OnGetLocationCLicked" 
+                    FontFamily="{DynamicResource PrimaryFontFamily}" 
+                    BackgroundColor="{DynamicResource PrimaryButton}" 
+                    TextColor="{DynamicResource White}" 
+                    CornerRadius="12" 
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"/>
+
+            <Button Text="Back to Employee Page" 
+                    Clicked="OnEmployeePageClicked" 
+                    FontFamily="{DynamicResource PrimaryFontFamily}" 
+                    BackgroundColor="{DynamicResource PrimaryButton}" 
+                    TextColor="{DynamicResource White}" 
+                    CornerRadius="12"
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </Grid>
+    </ScrollView>
+</ContentPage>

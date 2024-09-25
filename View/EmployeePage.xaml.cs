@@ -8,4 +8,9 @@ public partial class EmployeePage : ContentPage
 		InitializeComponent();
 		BindingContext = new EmployeeViewModel();
 	}
+
+    private async void OnAddEmployeeButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new AddEmployee());
+    }
 }

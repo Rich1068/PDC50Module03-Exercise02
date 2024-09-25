@@ -61,5 +61,17 @@
                    FontFamily="{DynamicResource PrimaryFontFamily}"
                    TextColor="{DynamicResource Black}"/>
         </Frame>
+
+        <Button 
+                Text="Add Employee"
+                Clicked="OnAddEmployeeButtonClicked"
+                FontFamily="{DynamicResource PrimaryFontFamily}"
+                BackgroundColor="{DynamicResource PrimaryButton}"
+                TextColor="{DynamicResource White}"
+                CornerRadius="12"
+                WidthRequest="200"
+                HeightRequest="50"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>

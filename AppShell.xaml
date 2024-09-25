@@ -21,4 +21,8 @@
         Title="Home"
         ContentTemplate="{DataTemplate views:EmployeePage}"
         Route="EmployeePage" />
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate views:AddEmployee}"
+        Route="AddEmployee" />
 </Shell>

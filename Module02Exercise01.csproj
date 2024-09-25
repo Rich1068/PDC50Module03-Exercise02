@@ -69,6 +69,9 @@
 	  <MauiXaml Update="Resources\Styles\WindowsResources.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="View\AddEmployee.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\EmployeePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
